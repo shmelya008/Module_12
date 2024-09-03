@@ -22,7 +22,6 @@ class RunnerTest(unittest.TestCase):
         r_1 = Runner('Serge')
         for i in range(10):
             r_1.walk()
-            return r_1.distance
         self.assertEqual(r_1.distance, 50)
 
     #
